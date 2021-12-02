@@ -15,7 +15,7 @@ body {
 
 /*about me design*/
 #aboutme{
-    background-color: #FFFF;
+    background-color:#FFFF;
 }
 
 /*aboutme image turn to circle*/
@@ -26,6 +26,7 @@ body {
 /*competency design*/
 #competencyandskills{
     background-color: #4922FB;
+    color:#BDFF2C;
 }
 
 /*skills table design*/
@@ -36,8 +37,12 @@ body {
 /*project design*/
 #project{
     background-color: #FFFF;
+    color: #4922FB;
 }
 
 /*project rectangle images*/
+.projectimg{
+    
+}
 
 
