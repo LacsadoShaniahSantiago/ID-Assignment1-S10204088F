@@ -1,0 +1,18 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#homepage{
+    background-color:#9D46FB;
+}
+
+#aboutme{
+    background-color: #FFFF;
+}
+
+#competencyandskills{
+    background-color: #4922FB;
+}
+img{
+    border-radius: 50%;
+}
