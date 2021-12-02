@@ -2,17 +2,42 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*homepage design*/
 #homepage{
     background-color:#9D46FB;
 }
 
+/*homepage image position*/
+.homeimg{
+    border-radius: 50%;
+    position: relative;
+}
+
+/*about me design*/
 #aboutme{
     background-color: #FFFF;
 }
 
+/*aboutme image turn to circle*/
+.aboutimg{
+    border-radius: 50%;
+}
+
+/*competency design*/
 #competencyandskills{
     background-color: #4922FB;
 }
-img{
-    border-radius: 50%;
+
+/*skills table design*/
+#skills{
+
 }
+
+/*project design*/
+#project{
+    background-color: #FFFF;
+}
+
+/*project rectangle images*/
+
+
