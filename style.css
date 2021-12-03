@@ -130,6 +130,7 @@ body {
 .hr1{
     border-top: 2px solid #C4C4C4;
 }
+
 /*about me design*/
 #aboutme{
     background-color:#FFFF;
@@ -137,28 +138,65 @@ body {
 }
 
 .aboutmeContent{
-    display: inline-block;
-}
-.aboutmeContent header{
-    display: flex;
-    justify-content: space-evenly;
-}
-.aboutmeContent div{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
 
-/*competency design*/
+#headers{
+    display: flex;
+    justify-content: space-around;
+}
+
+.education{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.education div div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.schandstudy{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.schandstudy div{
+    flex-direction: column;
+}
+
+.cca{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutmeContent h2{
+    font-size: 30px;
+}
+
+/*skills design*/
 #competencyandskills{
     background-color: #4922FB;
     color:#BDFF2C;
 }
 
-/*skills table design*/
-#skills{
-
+.skillsContent{
+    font-size: 25px;
 }
+
+.skillsContent div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hr2{
+    border-top: 2px solid #BDFF2C;
+}
+/*achievement table design*/
 
 /*project design*/
 #project{
