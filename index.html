@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="Assignment 1" content="width=device-width">
     <title> ID Project 1 : Lacsado Shaniah Santiago Portfolio Website</title>
-    <link href="style.css" rel="stylesheet" type="text/css" >
+    <link href="style.css" rel="stylesheet" type="text/css">
 
     <!--Font-->
     <!--Montserrat-->
@@ -14,49 +14,61 @@
 
 </head>
 
-<body>
-    <section>
+<body id="home">
+    <section class="split left">
         <header>
-            <h4>Lacsado Shaniah Santiago | Student</h4>
+            <h4>Lacsado Shaniah Santiago<br> | Student</h4>
         </header>
-
+        <div>
+            <img src="images/myself1.jpg" alt="Lacsado Shaniah Santiago" class="homeimg">
+        </div>
     </section>
-    <section>
+    <section class="split right">
+        <!--Navigation-->
         <nav>
-            <h4>Home</h4>
+            <h4><a href="index.html">Home</a></h4>
         </nav>
-        <main>
-            <!-- Description -->
-            <h3>Hi, I am Lacsado Shaniah Santiago.</h3>
-            <p>Singapore based.<br>Ngee Ann Polytechnic Student</p>
-
+        <!--Right Side Section-->
+        <div class="homebutton">
+            <div>
+                <!-- Description -->
+                <h3>Hi, I am Lacsado Shaniah <br>Santiago.</h3>
+                <p>Singapore based.<br>Ngee Ann Polytechnic Student</p>
+            </div>
             <!--Buttons of Home Page-->
             <!-- Link to the other page anchor html#id -->
-            <button type="button">
-                <a href="main.html#aboutme" title="About me | Lacsado Shaniah Santiago" target="_self">
-                    about me
-                </a></button>
-
-            <button type="button">
-                <a href="main.html#competencyandskills" title="Competency + Skills | Lacsado Shaniah Santiago" target="_self">
-                    competency + skills
-                </a></button>
-
-            <button type="button">
-                <a href="main.html#project" title="Projects | Lacsado Shaniah Santiago" target="_self">
-                    projects
-                </a></button>
-
-            <button type="button">
-                <a href="contact.html" title="Contact Information | Lacsado Shaniah Santiago" target="_self">
-                    contact me
-                </a></button>
             <div>
-                <!--LinkedIn-->
-                <img>
-                <!--Ngee Ann Polytechnic Portfolio-->
-                <img>
+                <button type="button">
+                    <a href="main.html#aboutme" title="About me | Lacsado Shaniah Santiago" target="_self">
+                        about me
+                    </a></button>
+
+                <button type="button">
+                    <a href="main.html#competencyandskills" title="Competency + Skills | Lacsado Shaniah Santiago"
+                        target="_self">
+                        competency + skills
+                    </a></button>
+
+                <button type="button">
+                    <a href="main.html#project" title="Projects | Lacsado Shaniah Santiago" target="_self">
+                        projects
+                    </a></button>
+
+                <button type="button">
+                    <a href="contact.html" title="Contact Information | Lacsado Shaniah Santiago" target="_self">
+                        contact me
+                    </a></button>
             </div>
-        </main>
+            <div>
+                <!--LinkedIn Link-->
+                <a>
+                    <img src="images/linkedin.png" alt="LinkedIn">
+                </a>
+                <!--Ngee Ann Polytechnic Portfolio Link-->
+                <a>
+                    <img src="images/e-portfolio.png" alt="Ngee Ann Polytechnic E-Portfolio">
+                </a>
+            </div>
+        </div>
     </section>
 </body>
