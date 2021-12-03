@@ -2,26 +2,151 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*------Index.html Page------*/
+
 /*homepage design*/
-#homepage{
-    background-color:#9D46FB;
+#home{
+    background-image: url('images/homeBackground.jpg');
+    background-size: auto;
+    color: #FFFF;
+}
+.split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
-/*homepage image position*/
+.split header{
+    margin: 49px;
+    font-size: 25px;
+}
+
+.left{
+    left: 0;
+}
+
+/*homepage image*/
 .homeimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     border-radius: 50%;
-    position: relative;
+    max-height: 50%;
 }
 
+.right{
+    right:0;
+    background-color: #9D46FB;
+}
+
+.right h3{
+    font-size: 40px;
+    margin: 20px;
+}
+
+.right p{
+    font-size: 20px;
+    margin:20px;
+}
+
+.homebutton {
+    position: absolute;
+    transform: translate(23%, 12%);
+}
+
+.homebutton button{
+    width: 50%;
+    background-color: #FFFF;
+    border-color: #9F84FB;
+    border-radius: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 16px 50px;
+    margin: 20px;
+}
+
+.homebutton a{
+    text-align: center;
+    text-decoration: none;
+    color: #9F84FB;
+}
+
+/* social platform image */
+.right img{
+    max-height: 50px;
+}
+
+.right nav{
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.right nav a{
+    float: right;
+    text-decoration: none;
+    color: #FFFF;
+    text-align: center;
+    margin-right: 50px;
+}
+/*------ Main.html Page ------*/
+/* Header design*/
+.mainheader{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.mainheader img{
+    border-radius: 50%;
+    height: 145px;
+    vertical-align: middle;
+}
+
+.mainheader h1, h3{
+    margin: 25px;
+}
+
+.mainheader h1{
+    color: #9F84FB;
+    font-size: 50px;
+}
+
+.mainheader h3{
+    color: #C4C4C4;
+    font-size: 25px;
+}
+
+.headerdescription {
+    text-align: center;
+    font-size: 25px;
+}
+
+.hr1{
+    border-top: 2px solid #C4C4C4;
+}
 /*about me design*/
 #aboutme{
     background-color:#FFFF;
     color:#9484FB;
 }
 
-/*aboutme image turn to circle*/
-.aboutimg{
-    border-radius: 50%;
+.aboutmeContent{
+    display: inline-block;
+}
+.aboutmeContent header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutmeContent div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 /*competency design*/
@@ -46,4 +171,5 @@ body {
 
 }
 
+/*------ Contact Page ------*/
 
