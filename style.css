@@ -185,13 +185,20 @@ body {
 
 .skillsContent{
     font-size: 25px;
+    width: 100%;
+    border-collapse: collapse;
 }
 
-.skillsContent div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.skillsContent td{
+    text-align: center;
+    padding-left:35px;
 }
+
+.tableLeft{
+    vertical-align: top;
+    text-align: right;
+}
+
 
 .hr2{
     border-top: 2px solid #BDFF2C;
