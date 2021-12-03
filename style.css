@@ -183,22 +183,24 @@ body {
     color:#BDFF2C;
 }
 
+.sectionName{
+    font-size: 50px;
+    text-align: center;
+}
 .skillsContent{
     font-size: 25px;
-    width: 100%;
     border-collapse: collapse;
-    margin-left: 120px;
+}
+.skillsContent table{
+    margin-left: auto;
     margin-right: auto;
 }
-
 .skillsContent td{
     text-align: center;
-    padding-left:50px;
 }
 
 .tableLeft{
     vertical-align: top;
-    text-align: left;
 }
 
 .hr2{
@@ -211,17 +213,62 @@ body {
 
 }
 /*achievement table design*/
+.hr3{
+    width: 30%;
+    border-top: 2px solid #BDFF2C;
+}
 
+.achievement{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 500px;
+}
 /*project design*/
 #project{
     background-color: #FFFF;
     color: #4922FB;
 }
 
-/*project rectangle images*/
-.projectimg{
-
+/*project images*/
+.projectbox{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 30%;
 }
 
+.projectN{
+    padding: 4%;
+    flex-grow: 1;
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #4922FB;
+}
+.projectimg{
+    max-width: 10%;
+}
+
+.pInfo{
+    margin-top:auto;
+}
 /*------ Contact Page ------*/
 
+
+
+footer{
+    background-color: #C4C4C4;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+footer img{
+    max-height: 50px;
+    border-radius: 50%;
+}
+
+.borderImage{
+    border-radius: 50%;
+}
