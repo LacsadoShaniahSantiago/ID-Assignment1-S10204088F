@@ -187,21 +187,28 @@ body {
     font-size: 25px;
     width: 100%;
     border-collapse: collapse;
+    margin-left: 120px;
+    margin-right: auto;
 }
 
 .skillsContent td{
     text-align: center;
-    padding-left:35px;
+    padding-left:50px;
 }
 
 .tableLeft{
     vertical-align: top;
-    text-align: right;
+    text-align: left;
 }
-
 
 .hr2{
     border-top: 2px solid #BDFF2C;
+}
+
+#headerCandS{
+    margin: 25px;
+    font-size: 50px;
+
 }
 /*achievement table design*/
 
