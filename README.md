@@ -59,6 +59,9 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 # Credits
+linkedin icon png https://www.pngwing.com/en/free-png-pwbku/download
+inspiration from https://www.wix.com/website-template/view/html/2788?siteId=4b6fd20f-d3c0-4fa1-9c79-ed15b511345e&metaSiteId=7e1b6812-3ee2-42bc-b1b9-a31fefbb40c9&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fprofessional-cv&tpClick=view_button
+
 # Content
 Images of social platform icon in home page and contact form.
     linkedin icon png https://www.pngwing.com/en/free-png-pwbku/download
