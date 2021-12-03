@@ -2,9 +2,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="Assignment 1" content="width=device-width">
+    <meta name="Assignment 1" content="width=device-width, initial-scale=1.0">
     <title> About me | Lacsado Shaniah Santiago Portfolio Website</title>
-    <link href="style.css" rel="stylesheet" type="text/css" >
+    <link href="style.css" rel="stylesheet" type="text/css">
 
     <!--Fonts-->
     <!--Montserrat Medium 500-->
@@ -17,108 +17,175 @@
 <body>
     <!--Header of Main Page-->
     <header>
-        <nav>
-            About
-        </nav>
-        <img>Image of myself
         <div>
-            <h1>Lacsado Shaniah Santiago</h1>
-            <h3>vales| values | values</h3>
+            <div>
+                <button>About Me</button>
+            </div>
+            <!-- Navigation Dropdown Menu -->
+            <div>
+                <a href="index.html" title="Home | Lacsado Shaniah Santiago" target="_self">Home</a>
+                <a href="#competencyandskills" title="Competency + Skills | Lacsado Shaniah Santiago" target="_self">
+                    competency + skills
+                </a>
+                <a href="#project" title="Projects | Lacsado Shaniah Santiago" target="_self">
+                    projects
+                </a>
+                <a href="contact.html" title="Contact Information | Lacsado Shaniah Santiago" target="_self">
+                    contact me
+                </a>
+            </div>
         </div>
-        <p>Hi, I am currently a Ngee Ann Polytechnic student in IT. This is my portfolio website creation.</p>
+        <!-- Header Content -->
+        <div class="mainheader">
+            <img src="images/myself2.JPG" title="Picture of Myself">
+            <span>
+                <h1>Lacsado Shaniah Santiago</h1>
+                <h3>industrious | communicative | realistic</h3>
+            </span>
+        </div>
+        <p class="headerdescription">Hi, I am currently a Ngee Ann Polytechnic student in Information Technology. This
+            is my portfolio website creation.</p>
+
     </header>
 
-    <hr>
+    <hr class="hr1">
 
     <!-- Education Section -->
-    <section id="aboutme">
+    <section id="aboutme" class="aboutmeContent">
         <!--Headers-->
         <div>
-            <h3>public void Education {</h3>
-            <h3>string School;</h3>
-            <h3>int Year;</h3>
-            <h3>string CCA/Clubs;</h3>
+            <h2>Education History {</h2>
         </div>
-        <!-- Polytechnic -->
         <div>
-            <h3></h3>
-            <div>
-                <h2>Ngee Ann Polytechnic;</h2>
-                <h4>(Achieving) Diploma in Information Technology<br>
-                    (Achieving) Diploma Plus CACM<br>
-                    Singapore.<br>
-                </h4>
+            <div id="headers">
+                <h2>string School;</h2>
+                <h2>DateTime Year;</h2>
+                <h2>string CCA/Clubs;</h2>
             </div>
-            <h2>CurrentYear - 2020</h2>
-            <h3>NP Women's Basketball Team<br>
-                NullSec IT Club<br>
-            </h3>
-        </div>
-        <!-- Secondary -->
-        <div>
-            <div></div>
-            <div>
-                <h2>Woodgrove Secondary School;</h2>
-                <h4>Normal (Academic) Level Examination<br>
-                    Singapore.<br>
-                </h4>
+            <div class="education">
+                <!-- Polytechnic -->
+                <div>
+                    <div>
+                        <div class="schandstudy">
+                            <div>
+                                <h2>Ngee Ann Polytechnic;</h2>
+                            </div>
+                            <div>
+                                <h4>(Achieving) Diploma in IT<br>
+                                    (Achieving) Diploma Plus CACM
+                                </h4>
+                            </div>
+                        </div>
+                        <div>
+                            <h2>CurrentYear - 2020</h2>
+                        </div>
+                        <div class="cca">
+                            <h2>Women's Basketball Team<br>
+                                NullSec IT Club</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Secondary -->
+                <div>
+                    <div>
+                        <div class="schandstudy">
+                            <div>
+                                <h2>Woodgrove Secondary School;</h2>
+                            </div>
+                            <div>
+                                <h4>Normal (Academic) Level Examination</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <h2>2019 - 2016</h2>
+                        </div>
+                        <div class="cca">
+                            <h2>Girls' Basketball Team<br>
+                                Student Union</h2>
+                        </div>
+                    </div>
+                </div>
+                <!--Primary-->
+                <div>
+                    <div>
+                        <div class="schandstudy">
+                            <div>
+                                <h2>Si Ling Primary School;</h2>
+                            </div>
+                            <div>
+                                <h4>Primary School Leaving Examination (PSLE)</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <h2>2010 - 2015</h2>
+                        </div>
+                        <div class="cca">
+                            <h2>Girls' Basketball Team</h2>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <h2>2019 - 2016</h2>
-            <h3>Woodgrove Girls' Basketball Team<br>
-                Student Union<br>
-            </h3>
-        </div>
-        <!--Primary-->
-        <div>
-            <h3></h3>
-            <div>
-                <h2>Si Ling Primary School</h2>
-                <h4>Primary School Leaving Examination (PSLE)<br>
-                    Singapore<br>
-                </h4>
-            </div>
-            <h2>2010 - 2015</h2>
-            <h3>Si Ling Girls' Basketball Team</h3>
-        </div>
     </section>
 
     <!--Competency and Skills-->
     <section id="competencyandskills">
         <header>
-            <nav>
-                Competency and Skills
-            </nav>
             <h1>Competency and Skills</h1>
         </header>
+
+        <hr class="hr2">
+
         <!-- Skills -->
         <div>
             <h1>Skills</h1>
-            <div>
-                <h2>CyberSecurity</h2>
-                <div>
-                    <h3>Cyber Security Fundamentals</h3>
-                </div>
-                <div>
-                    <h3>Advanced</h3>
-                </div>
-            </div>
-            <div>
-                <h2>Programming Languages</h2>
-                <div>
-                    <h3>Python</h3>
-                </div>
-                <div>
-                    <h3>Advanced</h3>
-                </div>
-            </div>
-            <div>
-                <h2>Designing</h2>
-                <div>
-                    <h3>Design Principles</h3>
-                </div>
-                <div>
-                    <h3>Advanced</h3>
-                </div>
+            <div class="skillsContent">
+                <table>
+                    <tr>
+                        <th>Category</th>
+                        <th>Name</th>
+                        <th>Level</th>
+                    </tr>
+                    <tr>
+                        <th>CyberSecurity</th>
+                        <td>Windows Command Prompt</td>
+                        <td>Novice</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="5">Programming Langauges</th>
+                        <td>Python</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>C #</td>
+                        <td>Novice</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Novice</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Novice</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="4">Digital Softwares</th>
+                        <td>Adobe Illustration</td>
+                        <td>Novice</td>
+                    </tr>
+                    <tr>
+                        <td>Adobe PhotoShop</td>
+                        <td>Novice</td>
+                    </tr>
+                    <tr>
+                        <td>Adobe Xd</td>
+                        <td>Novice</td>
+                    </tr>
+                </table>
             </div>
         </div>
 
@@ -127,16 +194,28 @@
             <h2>Key Achievements</h2>
             <div>
                 <div>
-                    <h2>Edusave Award for Achievemnt, Good Leadership and Service</h2>
-                    <h2>2019 / 2017</h2>
+                    <div>
+                        <h2>Edusave Award for Achievemnt, Good Leadership and Service</h2>
+                    </div>
+                    <div>
+                        <h2>2019 / 2017</h2>
+                    </div>
                 </div>
                 <div>
-                    <h2>Edusave Scholarship</h2>
-                    <h2>2019 / 2017 - 2016</h2>
+                    <div>
+                        <h2>Edusave Scholarship</h2>
+                    </div>
+                    <div>
+                        <h2>2019 / 2017 - 2016</h2>
+                    </div>
                 </div>
                 <div>
-                    <h2>National Basketball Giirls' B/C Division 3rd Placing </h2>
-                    <h2>2019 / 2017</h2>
+                    <div>
+                        <h2>National Basketball Giirls' B/C Division 3rd Placing</h2>
+                    </div>
+                    <div>
+                        <h2>2019 / 2017</h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -144,6 +223,11 @@
 
     <!-- Project -->
     <section id="project">
+        <header>
+            <h1>Projects</h1>
+        </header>
+
+        <hr>
         <!--[1]-->
         <div>
             <div>
@@ -221,6 +305,11 @@
                 <p>Information</p>
             </div>
         </div>
+    </section>
+    <section>
+        <button>
+            <a href="contact.html" title="Contact Page | Lacsado Shaniah Santiago">Contact Me</a>
+        </button>
     </section>
 
     <!--Footer-->
