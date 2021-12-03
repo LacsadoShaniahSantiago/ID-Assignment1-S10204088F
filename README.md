@@ -1,36 +1,53 @@
 # ID-Assignment1-S10204088F
-Your Project's Name
-One or two paragraphs providing an overview of your project. Tell us about your project.
+# ID Project 1
+This project is about creating a porfolio website such as a self-branding website that potential employers can look into for those that considering to hire me. This website will be clear and convenient for employers to find out more about me such as what I have done so far in my life. It includes my education history, achievements, skills, projects and contact information when they decided to hire me. 
 
-Essentially, this part is your sales pitch.
+Employers are able to identify the content of the pages and easily read the content. Additionally, they are able to go to their desired page section such as about me, competency and skills, projects and contact information. 
 
-Design Process
+# Design Process
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+I have created a website that is clean and organised. Does not stress readers such as Employers or Employees from Companies who are looking into newly graduated IT students such as myself. The website will provide them minimum information such as education history, schoolworks (in projects), skills (in competency and skills page), achievements I have received and contact informations found from the contact page. If they have decided to hire me after viewing my portfolio website, they are able to straight away write a message to me from the contact page.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+For the home page,
+there is a picture of me and my name on the left section of the webpage if they are viewing from a monitor screen or laptop screen. Additionally, there are buttons that Employers can click and will be sent to their desired information they would like to start with about knowing me. Moreover, there are other social platform that they can refer to for more information such as LinkedIn and Ngee Ann Polytechnic ICT E-Portfolio (need to use school VPN to access E-Portfolio).
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+For the main page,
+there is a navigation bar on the top right that Employers can click on and go to the section of the page they would like to go. And at the end of the page, there is a convenient contact button Employers can click after reading the information about me.
 
-Features
+For the contact page,
+there is a navigation bar for Employers to click on if they decided to re-check something or would like to refer back to again. The contact page will show them a contact form they could straight away fill up and send a message to me. Otherwise, there is my contact information for them to such as contact number or email they could note if they decide to hire me.
+
+Wireframe:
+https://xd.adobe.com/view/49a885d0-c4c5-415e-a55f-331f93bae89c-1cfb/?fullscreen
+
+# Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
+# Existing Features
+Feature 1 - allows Employer to go to About Me section in Main Page, by having them click on home page About Me button.
+Feature 2 - allows Employer to go to Competency and Skills in Main Page, by having them click on home page Competency and Skills button.
+Feature 3 - allows Employer to go to Project 
 ...
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+1) Able to automatically email me the message from the contact form.
+2) Change the name of the mavigation bar in the main page to the corresponding page.
 
-Features Left to Implement
+# Features Left to Implement
 Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
+# Technologies Used
+[HTML] - website information
+[CSS] - website decoration
+[JavaScript] - website functions
+[Adobe XD] - wireframe/frameworks
+[Google Fonts] - download fonts for website
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
 Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-Contact form:
+# Contact form:
 Go to the "Contact Us" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
@@ -41,13 +58,17 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X.
+# Credits
+# Content
+Images of social platform icon in home page and contact form.
+    linkedin icon png https://www.pngwing.com/en/free-png-pwbku/download
+    e-portfolio icon png https://eportfolio.ict.np.edu.sg/cohort/student/profile/3199/.
 
-linkedin icon png https://www.pngwing.com/en/free-png-pwbku/download
-e-portfolio icon png https://eportfolio.ict.np.edu.sg/cohort/student/profile/3199/.
+Image of projects.
+    Year 2020 April Semester Design Priniciple of Lacsado Shaniah Santiago for CA3.
+    Year 2020 April Semester Data Science Fundamentals of Lacsado Shaniah Santiago for Group Assignment Stakeholder (Industry).
+
+# Acknowledgements
+I received inspiration for this project from Wix.com template.
+https://www.wix.com/website-template/view/html/2788?siteId=4b6fd20f-d3c0-4fa1-9c79-ed15b511345e&metaSiteId=7e1b6812-3ee2-42bc-b1b9-a31fefbb40c9&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fprofessional-cv&tpClick=view_button
+
