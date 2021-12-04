@@ -285,7 +285,7 @@ body {
 }
 
 .contactbtn button{
-    width: 100;;
+    width: 100px;
     background-color: #FFFF;
     color:#4922FB;
     border-color:  #4922FB;
@@ -361,7 +361,7 @@ textarea {
 }
 
 .sendbtn input[type='submit']{
-    width: 100;;
+    width: 100px;
     background-color: #FFFF;
     color:#9F84FB;
     border-color:  #9F84FB;

@@ -60,6 +60,10 @@ Try to submit the form with all inputs valid and verify that a success message a
 only works on desktop screen. On smaller screens such as mobile device. It is messy.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+<button> cannot be a descendent of <a> element.
+<html lang="en"> consider adding a <lang> attribute to the <html> start tag to declare the language of the document.
+<h> elements are not allowed as child element of <span>
+<h1> using for top-level heading only.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
