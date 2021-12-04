@@ -16,3 +16,10 @@ function checkName(e){
 var fullName = document.getElementById('name');
 
 fullName.addEventListener('blur', checkName, false);
+
+function submitForm() {
+    var frm = document.getElementsByClassName("formfill")[0];
+    frm.submit();
+    frm.reset();
+    return false;
+}
