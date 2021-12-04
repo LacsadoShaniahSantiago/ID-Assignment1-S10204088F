@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="Assignment 1" content="width=device-width">
     <title> About me | Lacsado Shaniah Santiago Portfolio Website</title>
-    <link href="style.css" rel="stylesheet" type="text/css" >
+    <link href="style.css" rel="stylesheet" type="text/css">
 
     <!--Font-->
     <!--Montserrat Font-->
@@ -15,49 +15,73 @@
 </head>
 
 <body>
-    <nav>
+    <div class="navbar">
         <a href="index.html" title="Home | Lacsado Shaniah Santiago">Home</a>
-        <a href="main.html#aboutme" title="About | Lacsado Shaniah Santiago">About Me</a>
-        <a href="main.html#competencyandskills" title="Competency and Skills | Lacsado Shaniah Santiago">Competency and Skills</a>
+        <a href="main.html#aboutme" title="About Me | Lacsado Shaniah Santiago">About Me</a>
+        <a href="main.html#competencyandskills" title="Competency and Skills | Lacsado Shaniah Santiago">Competency and
+            Skills</a>
         <a href="main.html#project" title="Project | Lacsado Shaniah Santiago">Project</a>
-    </nav>
-    <div>
-        <form>
-            <label>Contact Me</label>
-            
-            <label for="fname"> Full Name</label>
-            <input type="text" name="fullname" placeholder="Full name...">
-
-            <label for="contact">Contact</label>
-            <input type="tel" name="contactno" placeholder="Full Contact number...">
-
-            <label for="message">Message</label>
-            <testarea name="message" placeholder="Write here..."></testarea>
-            <input type="submit" value="Send">
-
-        </form>
-        <h1>Or</h1>
+    </div>
+    <br>
+    <br>
+    <div id="form">
         <div>
             <div>
-                <h1>Phone</h1>
-                <h3>+65 84862214</h3>
+                <h1 class="formPositioning">Contact Me</h1>
             </div>
+            <form class="formfill">
+                <div>
+                    <label for="fname">Name:</label>
+                    <input type="text" name="fullname" placeholder="Full name...">
+                </div>
+                <div>
+                    <label for="contact">Contact:</label>
+                    <input type="tel" name="contactno" placeholder="Full Contact number...">
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea name="message" form="usrform" placeholder="Write here..."></textarea>
+                </div>
+            </form>
+        </div>
+        <div class="positioning">
+            <h1>Or</h1>
             <div>
-                <h1>Email</h1>
-                <h3>s10204088@connect.np.edu.sg</h3>
+                <div>
+                    <div>
+                        <h2>Phone :</h2>
+                    </div>
+                    <div>
+                        <h3>+65 84862214</h3>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h2>Email :</h2>
+                    </div>
+                    <div>
+                        <h3>s10204088@connect.np.edu.sg</h3>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="sendbtn">
+            <input type="submit" value="Send">
+        </div>
     </div>
-    
     <!--Footer-->
     <footer>
         <div>
             <p>Website Created by Lacsado Shaniah Santiago @ 2021</p>
-            <div>
+            <div class="borderImage">
                 <!--LinkedIn-->
-                <img>
-                <!--Ngee Ann Polytechnic Portfolio Page-->
-                <img>
+                <a href="https://www.linkedin.com/in/shaniah-lacsado-9b106b212/" target="_blank">
+                    <img src="images/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://eportfolio.ict.np.edu.sg/cohort/student/profile/3199/" target="_blank">
+                    <!--Ngee Ann Polytechnic Portfolio Page-->
+                    <img src="images/e-portfolio.png" alt="E-portfolio">
+                </a>
             </div>
             <p>Interactive Development Assignment 1</p>
         </div>
