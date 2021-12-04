@@ -207,7 +207,7 @@ body {
     border-top: 2px solid #BDFF2C;
 }
 
-#headerCandS{
+#header{
     margin: 25px;
     font-size: 50px;
 
@@ -234,8 +234,9 @@ body {
 /*project images*/
 .projectbox{
     display: flex;
+    width: 100%;
+    background-color: #FFFF;
     flex-wrap: nowrap;
-    width: 30%;
 }
 
 .projectN{
@@ -245,14 +246,16 @@ body {
     display: flex;
     flex-direction: column;
     border: 1px solid #4922FB;
+    margin: 20px;
 }
-.projectimg{
-    max-width: 10%;
+.projectimg img{
+    max-width: 100%;
 }
 
 .pInfo{
-    margin-top:auto;
+    margin-top: auto;
 }
+
 /*------ Contact Page ------*/
 
 
